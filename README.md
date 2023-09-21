@@ -26,7 +26,7 @@ Ejecuta el siguiente comando para iniciar el servidor:
 npm start
 ```
 
-El servidor se ejecutará en el puerto 4000.
+El servidor se ejecutará en el puerto 7777, como se especifica en el archivo `index.js`.
 
 ### Uso de la API
 
@@ -35,7 +35,7 @@ La API ofrece cinco rutas diferentes para realizar operaciones matemáticas:
 1. **Suma:** Realiza una suma de dos números.
    - Método: GET
    - Ruta: `/results/:n1/:n2`
-   - Ejemplo de solicitud: `GET http://localhost:4000/results/3/5`
+   - Ejemplo de solicitud: `GET http://localhost:7777/results/3/5`
 
 2. **Multiplicación:** Realiza una multiplicación de dos números.
    - Método: POST
@@ -73,7 +73,7 @@ La API ofrece cinco rutas diferentes para realizar operaciones matemáticas:
 5. **Resta:** Realiza una resta de dos números.
    - Método: DELETE
    - Ruta: `/results/:n1/:n2`
-   - Ejemplo de solicitud: `DELETE http://localhost:4000/results/7/2`
+   - Ejemplo de solicitud: `DELETE http://localhost:7777/results/7/2`
 
 ### Ejemplos de Respuesta
 
